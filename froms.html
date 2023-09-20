@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML froms</title>
+    </head>
+    <body>
+       
+        <form action="/process.php">
+            <!--Input type text-->
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname"><br>
+            <label for="lname">Last name:</lable><br>
+            <input type="tetx" name="lnamse"><br><br>
+
+            <!--Inpput type email-->
+            <label for="email">Email:</lable><br>
+            <input type="email" id="email" name="email"><br>
+            <!-- Input type password-->
+            <label for="paswword">Password:</lable><br>
+            <input type="password" id="password" name="passworrd"><br><br>
+
+            <!-- Input type date-->
+            <label for="birthdate">Birth Date:</label><br>
+            <input type="date" id="birthdate" name="birthdate"><br>
+
+            <!-- Select element-->
+            <label for="major">Major</label><br>
+            <select id="major" name="major">
+             <option value="Informatics Engineering">Informatics Engineering</option>   
+             <option value="Information System">Information System</option>
+             <option value="Accounting">Accounting</option>
+             <option value="Management">Management</option>
+            </select><br><br>
+
+            <!--Select element-->
+            <label for="religion">Relegion</label><br>
+            <select id="religion" name="religion">
+                <option value="Christian">Christian</option>
+                <option value="Moslem">Moslem</option>
+                <option value="Buddhist">Buddhist</option>
+                <option value="Hindu">Hindu</option>
+            </select><br>
+
+            <!-- Textarea element-->
+            <p> Write your comment below</p>
+            <textarea name="comment"  rows="10"cols=30>
+
+            </textarea>
+
+
+
+            <!--Input type radio-->
+            <p>Choose your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female"name="gender"value="female">
+            <lable for="female">Female</label><br><br>
+            <!-- Input type checkbox-->
+            <p>Choose your hobbies:</p>
+            <input type="checkbox" id="football" name="hobby1" value="Football">
+            <lable for="football">Football</lable><br>
+            <input type="checkbox" id="boxing" name="hobby2" value="Boxing">
+            <lable for="boxing">Boxing</lable><br>
+            <input type="checkbox" id="krate" name="hobby3" value="Karate">
+            <label type="karate">Karate</label><br>
+            <input type="checkbox"  id="playing games" name="hobby4" value="Playing Games">
+            <lable type="playing games">Playing Games</lable><br><br>
+
+
+            <!--Input type Submit-->
+            <input type="submit">
+            <!--Input Type-->
+            <input type="reset">
+        </form>
+</body>
+</html>
